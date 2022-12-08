@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Quizzer App</string>
+    <string name="q1text">4 x 8</string>
+    <string name="wrongMsg">Wrong</string>
+    <string name="Answer1">18</string>
+    <string name="Answer2">24</string>
+    <string name="Answer3">32</string>
+    <string name="Answer4">12</string>
+    <string name="nextQ">nextQ</string>
+    <string name="Nice">Correct!</string>
+    <string name="scoreTV">noscore</string>
+    <string name="q0">Pi is equal to 3.</string>
+    <string name="q1">Zero is an even number</string>
+    <string name="q2">Every odd number ends with an e when written in english</string>
+    <string name="q3">It takes 5 cuts to cut a cake into 8 equal pieces</string>
+    <string name="q4">18 is twice the sum of its digits</string>
+    <string name="Email_Button">Email Button</string>
 </resources>

@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="4_x_8"
+        android:text="@string/q1text"
         android:id="@+id/QuestionTV"
 
     />
@@ -22,7 +22,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="18"
+            android:text="@string/Answer1"
             android:id="@+id/firstBTN"
 
             />
@@ -30,7 +30,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="24"
+            android:text="@string/Answer2"
             android:id="@+id/secondBTN"
 
             />
@@ -42,7 +42,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="32"
+        android:text="@string/Answer3"
         android:id="@+id/thirdBTN"
 
         />
@@ -50,7 +50,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="12"
+        android:text="@string/Answer4"
         android:id="@+id/fourthBTN"
 
         />
@@ -59,8 +59,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Done"
-        android:id="@+id/DoneBTN"
+        android:text="@string/nextQ"
+        android:id="@+id/nextBTN"
 
         />
 
