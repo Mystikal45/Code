@@ -15,4 +15,6 @@
     <string name="q3">It takes 5 cuts to cut a cake into 8 equal pieces</string>
     <string name="q4">18 is twice the sum of its digits</string>
     <string name="Email_Button">Email Button</string>
+    <string name="Show_high_score">Show high score</string>
+    <string name="High_Score">High Score</string>
 </resources>

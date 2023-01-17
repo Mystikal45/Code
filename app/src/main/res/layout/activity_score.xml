@@ -20,4 +20,17 @@
         android:id="@+id/emailBTN"
         />
 
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Show_high_score"
+        android:textSize="60sp"
+        android:id="@+id/ShowHighScore"
+        />
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/High_Score"
+        android:id="@+id/HighScore"
+        android:textSize="40sp"/>
+
 </LinearLayout>

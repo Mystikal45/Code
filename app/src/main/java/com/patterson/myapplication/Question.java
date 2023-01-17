@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.patterson.myapplication;
 
 public class Question {
 

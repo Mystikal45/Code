@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.patterson.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.patterson.myapplication.R;
 
 public class MainActivity extends AppCompatActivity {
     TextView questionTV;
@@ -36,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
         nextBTN = (Button) findViewById(R.id.nextBTN);
         score = 0;
         currentIndex=0;
-        q2= new Question("Pi is closest to .", 3, 7, 5, 8);
+        q2= new Question("Pi is closest to   Hint: Think of the formula for pi.", 3, 7, 5, 8);
         q1 = new Question("Which is an even number  ", 0, 1, 9, 13);
         q0 = new Question("What is 8 x 4? ", 32, 18, 12, 24);
-        q3 = new Question("It takes how many cuts to cut a cake into 8 equal pieces", 5, 8, 12, 10);
+        q3 = new Question("It takes how many cuts to cut a cake into 8 equal pieces  Hint: It is an odd number", 5, 8, 12, 10);
         q4 = new Question("What number is twice the sum of its digits", 18, 28, 40, 69);
         questions = new Question[] {q0, q1, q2, q3, q4};
         currentQ = questions[currentIndex];

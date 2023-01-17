@@ -34,6 +34,13 @@
             android:id="@+id/secondBTN"
 
             />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Hint:4 numbers away from 28"
+
+             />
      </LinearLayout >
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -63,6 +70,8 @@
         android:id="@+id/nextBTN"
 
         />
+
+
 
 
 

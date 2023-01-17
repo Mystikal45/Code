@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.patterson.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,10 +9,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.patterson.myapplication.R;
+
 public class ScoreActivity extends AppCompatActivity {
 
     TextView scoreTV;
     Button emailBTN;
+    Button ShowHighScore;
+    TextView HighScore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +25,9 @@ public class ScoreActivity extends AppCompatActivity {
 
         scoreTV = (TextView) findViewById(R.id.scoreTV);
         emailBTN = (Button) findViewById(R.id.emailBTN);
+        ShowHighScore = (Button) findViewById(R.id.ShowHighScore);
+        HighScore = (TextView) findViewById(R.id.HighScore);
+
 
 
 
@@ -41,6 +48,13 @@ public class ScoreActivity extends AppCompatActivity {
                 intent.putExtra(intent.EXTRA_TEXT, body);
 
                     startActivity(intent);
+
+            }
+        });
+
+        ShowHighScore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
             }
         });
